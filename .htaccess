@@ -1,0 +1,22 @@
+#Options -MultiViews
+RewriteEngine on
+
+RedirectPermanent /anfahrt/ http://www.elfenrausch.de/atelier/
+
+#RewriteCond %{QUERY_STRING} ^neuigkeiten
+RewriteRule ^neuigkeiten/(.*)$ http://www.elfenrausch.de/aktuell/ [R=301,L]
+RewriteRule ^galerie/2008/(.*)$ http://www.elfenrausch.de/galerie/ [R=301,L]
+#Redirect permanent /neuigkeiten http://www.elfenrausch.de/aktuell/
+
+#RewriteRule ^(.*)/(\?.*)$ $1/index.html$2
+RewriteRule ^(.*)/$ $1/index.html
+
+#RewriteCond %{QUERY_STRING} force0815
+#RewriteRule ^(.*)?.*$ index.php?page=$1&FORCE=TRUE [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?page=$1 [NC]
+
+#ErrorDocument 404 /errors/404.php
+
