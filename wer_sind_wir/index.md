@@ -1,6 +1,6 @@
 ---
 title: Biografie
-#permalink: /wer_sind_wir/
+layout: default
 ---
 
 <div class="bio">
