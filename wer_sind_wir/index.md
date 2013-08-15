@@ -1,6 +1,6 @@
 ---
 title: Biografie
-permalink: wer_sind_wir
+#permalink: /wer_sind_wir/
 ---
 
 <div class="bio">
@@ -65,4 +65,6 @@ Auf Festivals und sonstigen Veranstaltungen die Kunden glücklich zu machen.<br/
 <h3>Berufung:</h3>
 Mit kleinen Schritten die Welt für alle zu einem besseren Ort zu machen.
 </p>
+</div>
+</div>
 
