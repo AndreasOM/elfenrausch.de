@@ -13,7 +13,7 @@ and [markdown](http://daringfireball.net/projects/markdown/).
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 	<p>{{ post.excerpt }}</p>
     </li>
   {% endfor %}
@@ -23,7 +23,7 @@ and [markdown](http://daringfireball.net/projects/markdown/).
 <ul>
   {% for page in site.pages %}
     <li>
-      <a href="{{ page.url }}">{{ page.title }}</a>
+      <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
 	<p>{{ page.excerpt }}</p>
     </li>
   {% endfor %}
