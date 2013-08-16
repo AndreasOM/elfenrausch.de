@@ -1,6 +1,6 @@
 ---
 title: Empty
-layout: default
+layout: default5
 ---
 
 Empty
