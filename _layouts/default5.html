@@ -13,7 +13,18 @@
         <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.min.css">
         <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
 
+        <link rel="stylesheet" type="text/css" media="all" href="{{ site.baseurl }}/css/elastic.css" />             
+        <link rel="stylesheet" type="text/css" media="print" href="{{ site.baseurl }}/css/elastic.print.css" />             
+        <link rel="stylesheet" type="text/css" media="all" href="{{ site.baseurl }}/css/elfenrausch.css" />
+
         <script src="{{ site.baseurl }}/js/vendor/modernizr-2.6.2.min.js"></script>
+
+        <script src="{{ site.baseurl }}/js/jquery.js" type="text/javascript" language="javascript" charset="utf-8"></script>                                                                                                  
+        <script type="text/javascript" src="{{ site.baseurl }}/js/prototype.js"></script>
+        <script type="text/javascript" src="{{ site.baseurl }}/js/scriptaculous.js?load=effects,builder"></script>
+        <script type="text/javascript" src="{{ site.baseurl }}/js/lightbox.js"></script>
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/lightbox.css" type="text/css" media="screen" />
+
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -53,8 +64,8 @@
     {% include menu.html %}
                         <div id="content" class="fixed-column bg-content" style="">
 {{ content }}
-                        </div>
     {% include footer.html %}
+                        </div>
                         <div id="right" class="fixed-column" style="">
                             &nbsp;
                         </div>

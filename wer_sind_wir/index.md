@@ -1,6 +1,6 @@
 ---
 title: Biografie
-layout: default
+layout: default5
 ---
 
 <div class="bio">

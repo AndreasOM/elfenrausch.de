@@ -1,6 +1,6 @@
 ---
 title: Willkommen 
-layout: default
+layout: default5
 ---
 <p>
 <strong>Elfenrausch</strong> steht f&uuml;r Fantasie, Tr&auml;umereien, Sinnlichkeit, Leidenschaft.
