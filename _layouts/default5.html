@@ -20,7 +20,48 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div class="layout">
+                <div class="top-spacer">
+                    &nbsp;
+                </div>
+
+                <!-- HEADER -->
+                <div class="header">
+                    <div class="unit four-columns" style="height: 181px;">
+                        <div class="left-spacer fixed-column" style="">
+                            &nbsp;
+                        </div>
+                        <div id="logo-menu" class="fixed-column" style="">
+                            &nbsp;
+                        </div>
+                        <div id="logo-content" class="fixed-column" style="">
+                            <div id="content-title">
+                                <h1>Willkommen</h1>
+                            </div>
+                        </div>
+                        <div id="logo-right" class="fixed-column" style="">
+                            &nbsp;
+                        </div>
+                    </div>
+                </div>
+                <!-- CONTENT -->
+                <div class="content">
+                    <div class="unit four-columns same-height">
+                        <div class="left-spacer fixed-column" style="">
+                            &nbsp;
+                        </div>
+    {% include menu.html %}
+                        <div id="content" class="fixed-column bg-content" style="">
+{{ content }}
+                        </div>
+    {% include footer.html %}
+                        <div id="right" class="fixed-column" style="">
+                            &nbsp;
+                        </div>
+                    </div>
+                </div>
+                <!-- -->
+        </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
